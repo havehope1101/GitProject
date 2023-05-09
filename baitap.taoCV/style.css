@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700);
+.cv .skills section span {
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background:#bbb;
+    border-radius:15px;
+    float:right;
+    margin:0 1px;
+}
+.cv .skills section span.full {border-left-width: medium background:#ff5335;}
