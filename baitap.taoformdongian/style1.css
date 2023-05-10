@@ -1,0 +1,17 @@
+fieldset {
+    width:450px;
+    height:250px;
+}
+h2 {
+    color: white;
+    -moz-text-size-adjust: auto;
+    text-align: center;
+    background-color: red;
+}
+input .reset {
+    text-align: -moz-center;
+    text-align: center;
+}
+label.ad {
+text-align: right;
+}
