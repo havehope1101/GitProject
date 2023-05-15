@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai1</title>
+</head>
+<body>
+<input type="number" id="so1">
+<input type="number" id="so2">
+<input type="number" id="so3">
+<br><br>
+<input type="button" value="check" id="max" onclick="timMax()">
+<div id="ketqua"></div>
+
+<script>
+    function timMax(){
+        debugger
+        let a = document.getElementById('so1').value;
+        let b = document.getElementById('so2').value;
+        let c = document.getElementById('so3').value;
+        let max = 0;
+
+        if(a>b) {
+            if(a>c){
+                max = a;
+            } else{
+                max = c;
+            }
+        } else {
+            if(b>c){
+                max = b;
+            } else {
+                max = c;
+            }
+        }
+        document.getElementById("ketqua").innerHTML = "so lon nhat la:" +max;
+    }
+</script>
+</body>
+</html>

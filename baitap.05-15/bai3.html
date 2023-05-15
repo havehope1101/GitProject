@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap so</title>
+</head>
+<body>
+<input type="number" id="so" placeholder="Hay nhap vao mot so ">
+<br><br>
+<input type="button" id="chia" value="/2" onclick="chia()">
+<input type="button" id="nhan" value="*2" onclick="nhan()">
+
+<script>
+  function chia(){
+    let a = document.getElementById('so').value;
+    alert("ket qua la: " + a/2);
+  }
+
+  function nhan(){
+    let b = document.getElementById('so').value;
+    alert("ket qua la " + b*2);
+  }
+
+</script>
+</body>
+</html>
