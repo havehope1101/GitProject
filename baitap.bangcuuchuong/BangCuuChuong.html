@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
 </head>
 <body>
-$END$
+<h1>Bang Cuu Chuong</h1>
+
+
+
+<script>
+    debugger
+    let sout;
+    sout = "<table border='1' width='1000' height='700'>"
+    for(let i=2;i<10;i++){
+        sout = sout + "<tr>"
+        for(let j=1;j<10;j++){
+            sout = sout + "<td align='center'>" + i + " x " + j + " = " + i*j;
+        }
+        sout = sout + "</tr>"
+    }
+    sout = sout + "</table>"
+    document.writeln(sout);
+</script>
 </body>
 </html>

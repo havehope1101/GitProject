@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoNguyenTo</title>
+</head>
+<body>
+
+
+<script>
+
+    function kiemTraSoNguyenTo(x) {
+
+        let numbers = Number(x);
+        let count = 0;
+        let N = 2;
+        
+        for (N = 2; N <= Math.sqrt(numbers); N++) {
+            if (numbers % N == 0) {
+                count++;
+            }
+
+        }
+        if (count < 1) {
+            check = true;
+            document.writeln(x + "<br>");
+        } else {
+            check = false;
+        }
+
+    }
+
+    let check = false;
+    let A = +prompt("Nhập số lượng số nguyên tố cần tìm :");
+    let c = 0;
+    let x = 2;
+    while (c < A) {
+        kiemTraSoNguyenTo(x);
+        if (check == true) {
+
+            c++;
+
+        }
+        x++;
+    }
+
+
+</script>
+</body>
+</html>

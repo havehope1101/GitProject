@@ -1,19 +1,22 @@
-function GFC(gfc){
+const toggles = document.querySelectorAll('.toggle')
+const good = document.querySelector('#good')
+const cheap = document.querySelector('#cheap')
+const fast = document.querySelector('#fast')
 
-let x=document.getElementById('g').value;
-let y=document.getElementById('f').value;
-let z=document.getElementById('c').value;
-if(gfc=='g1'){
-    x+=1;
-}
-if(gfc=='f1'){
-    y+=1;
-}
-if(gfc=='c1'){
-    z+=1;
-}
+toggles.forEach(toggle => toggle.addEventListener('change', (e) => doTheTrick(e.target)))
 
-if(x%2==0 && y%2==0 && z%2==0){
+function doTheTrick(theClickedOne) {
+    if(good.checked && cheap.checked && fast.checked) {
+        if(good === theClickedOne) {
+            fast.checked = false
+        }
 
-}
+        if(cheap === theClickedOne) {
+            good.checked = false
+        }
+
+        if(fast === theClickedOne) {
+            cheap.checked = false
+        }
+    }
 }
