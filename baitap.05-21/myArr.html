@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let myArr = [1, 2, 2, 7, 8, 8, 8, 5, 9, 4, 7, 0, 3];
+let myArr2 = [];
+
+//  loai bo phan tu trung lap
+
+  // cach 1
+  //   function unique(arr) {
+  //       return Array.from(new Set(arr));
+  //   }
+  //  document.writeln(unique(myArr))
+  //
+  //   document.writeln("-----------------------------------");
+  //
+  //
+  //   cach 2
+  //   let newArr = [];
+  //   (myArr.forEach(item => !newArr.includes(item) ? newArr.push(item):1));
+  // document.writeln(newArr);
+
+  // cach 3
+  for(let i=0;i<myArr.length;i++){
+      if(myArr2.indexOf(myArr[i])===-1){
+          myArr2.push(myArr[i]);
+      }
+  }
+  document.writeln(myArr2 + '<br>');
+
+
+  // //  thong ke so luong moi phan tu
+  let a = "";
+  for(let j=0;j<myArr2.length;j++){
+      let count = 0;
+      for(let k=0;k<myArr.length;k++){
+          if(myArr2[j]===myArr[k]){
+          count++;
+          a= myArr[k];
+          }
+      }
+      // document.writeln(count);
+      document.writeln("so lan xuat hien cua "+ a + " la " + count +'<br>');
+  }
+
+// function count(arr) {
+//       return arr.reduce((t,v) => (t[v] = (t[v] || 0) + 1, t), {});
+// }
+//   count(myArr);
+
+
+
+  //- Viết CT tìm phần tử xuất hiện nhiều nhất và số lần xuất hiện của phần tử đó => 8: 3
+
+
+
+
+
+
+
+  // let myArr2 = [];
+  // let c = 0;
+  // let c1 = "";
+  // (myArr2.forEach(item => newArr.includes(item) ? c1=item:1));
+  // document.writeln("phan tu xuat hien nhieu nhat la "+c1);
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

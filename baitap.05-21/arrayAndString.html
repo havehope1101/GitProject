@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    debugger
+    let myStr = "You guys try to do the exercises because doing more" +
+        " exercises helps us understand the theory and solve problems better"
+
+    // - Viết chương trình đếm số từ trong chuỗi trên.
+    let myStr2 = myStr.split(" ");
+    let i = 0;
+    for (let word of myStr2) {
+        i++;
+    }
+    document.writeln("Tong so tu trong chuoi la :" + i + '<br>');
+
+    // - Viết chương trình tìm từ dài nhất và số chữ cái trong từ đó.
+    let j = "";
+    let dodaimax = 0;
+    myStr2.forEach(myFunction);
+    document.writeln("Tu dai nhat trong chuoi la: " + j + " va gom " + dodaimax + " chu cai");
+
+    function myFunction(item) {
+        if (item.length > dodaimax) {
+            dodaimax = item.length;
+            j = item;
+        }
+    }
+
+
+    // - Viết chương trình đếm số từ xuất hiện nhiều nhất trong chuỗi trên.
+    // myStr2.forEach(myFunction2);
+    // document.writeln();
+    //
+    // let c = 0;
+    // function myFunction2(item2) {
+    //
+    //     c++;
+    // }
+
+
+</script>
+</body>
+</html>

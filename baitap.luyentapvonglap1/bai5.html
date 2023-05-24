@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<script>
+    let i = 0; let j = 1; let k = 1; let sum = 0;
+debugger
+// 2 so dau tien trong day fibonacci la 0 va 1.
+        for(let tongso=0;tongso<18;tongso++){
+        k = i + j;
+        sum +=k;
+        i = j;
+        j = k;
+
+    }
+    sum +=1;
+    document.writeln("tong 20 so dau tien trong day fibonacci la : "+ sum );
+</script>
+</body>
+</html>

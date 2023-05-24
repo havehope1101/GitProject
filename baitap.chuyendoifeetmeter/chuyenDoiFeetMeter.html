@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChuyenDoiFeetMeter</title>
+</head>
+<body>
+<input type="number" id="displayFootToMeter" placeholder="nhap vao gia tri foot" oninput="footToMeter(this.value)" onchange="footToMeter(this.value)">
+<p>Foot = <span id="displayMeter"></span></p>
+<input type="number" id="displayMeterToFoot" placeholder="nhap vao gia tri meter" oninput="meterToFoot(this.value)" onchange="footToMeter(this.value)">
+<p>Meter = <span id="displayFoot"></span></p>
+<script>
+  function footToMeter(foot){
+    document.getElementById("displayMeter").innerHTML = 0.305*foot;
+  }
+  function meterToFoot(meter){
+    document.getElementById("displayFoot").innerHTML = 3.279*meter;
+  }
+</script>
+</body>
+</html>

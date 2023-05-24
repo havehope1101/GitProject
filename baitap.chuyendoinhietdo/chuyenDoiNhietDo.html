@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChuyenDoiNhietDo</title>
+</head>
+<body>
+<h1>Temperature Converter</h1>
+<p>Type a value in the Fahrenheit field to  convert the value to Celcius</p>
+<span><b>Fahrenheit</b> <input type="number" id="convert" oninput="converter(this.value)" onchange="converter(this.value)"></span>
+<p><b>Celsius: </b><span id="outputCelsius"></span></p>
+<script>
+function converter(){
+    let nhietDo = document.getElementById("convert").valueAsNumber;
+    document.getElementById("outputCelsius").innerHTML = (nhietDo-32)/1.8;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // kiem tra chuoi co doi xung khong
+
+    // function checkDoiXung(arr) {
+    //     let check = true;
+    //     for (let i = 0; i < arr.length - 1; i++) {
+    //         if (arr[i] == arr[arr.length - 1 - i]) {
+    //             check = true;
+    //         } else {
+    //             check = false;
+    //             break;
+    //         }
+    //
+    //     }
+    //     if (check == true) {
+    //         document.writeln("chuoi doi xung");
+    //     } else {
+    //         document.writeln("chuoi khong doi xung")
+    //     }
+    // }
+
+
+
+    function checkDoiXung(arr) {
+        let check = true;
+        for (let i = 0; i < arr.length - 1; i++) {
+            if (arr[i] !== arr[arr.length - 1 - i]) {
+                check = false;
+            }
+        }
+            if (check == false) {
+                document.writeln("chuoi khong doi xung");
+            } else {
+                document.writeln("chuoi doi xung")
+            }
+        }
+
+
+    checkDoiXung("abcdba");
+
+
+    // function checkDoiXung2(arr){
+    //     // let i=0;
+    //     arr.forEach((i) => arr[i]==arr[arr.length-1-i] ? document.writeln("chuoi doi xung") : document.writeln("chuoi khong doi xung")
+    //     )}
+    // checkDoiXung2("abcdcbaa");
+</script>
+</body>
+</html>

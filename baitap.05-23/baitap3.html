@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ //   kiem tra so hoan hao
+
+    function checkSoHoanHao(number){
+        let sum = 0;
+        for( let i=0;i<number;i++){
+            if(number%i==0){
+                sum +=i;
+            }
+        }
+        if(sum===number){
+            document.writeln("day la so hoan hao");
+        }else document.writeln("day khong phai so hoan hao");
+    }
+    checkSoHoanHao(2653815611);
+
+    // function checkSoHoanHao2(number){
+    //
+    // }
+</script>
+</body>
+</html>

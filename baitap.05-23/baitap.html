@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // tim so chu so 2 trong so 1245321
+    let myString = 124532227363582357;
+    let count = 0;
+    function timSo(x) {
+        for (let i = x; i < 100; i++) {
+
+            if (myString % 10 == x) {
+                count++;
+                myString = (myString-myString%10)/10;
+            }else {  myString = (myString-myString%10)/10}
+
+        }
+        document.writeln("so chu so " + x + " trong day la " + count);
+    }
+
+    timSo(7);
+</script>
+</body>
+</html>

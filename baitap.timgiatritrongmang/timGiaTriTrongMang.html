@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    debugger
+    let value = +prompt("Emter a number: ");
+    let numbers = [-3, 5, 7, 12, 1, 6, 9];
+    let check = false;
+    let temp = 0;
+    for(let i=0;i<numbers.length;i++){
+        if(value==numbers[i]){
+            check = true;
+            temp =  i;
+            break;
+        } else check = false;
+    }
+    if(check==false){
+        alert("Not found that number in array");}
+    if(check==true) {alert("Value " + value+ " found at " + temp);
+    }
+</script>
+</body>
+</html>
