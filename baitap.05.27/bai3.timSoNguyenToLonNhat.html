@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function tim_so_nguyen_to_lon_nhat(arr) {
+      let check = 0;
+       ( arr.sort((a,b)=>b-a))
+        for(let i=0;i<arr.length;i++){
+            tim_so_nguyen_to(arr[i]);
+            if(check>0) {
+                console.log(check);
+                break;
+            }
+            }
+
+
+        function tim_so_nguyen_to(x){
+            let check2 = false
+            for(let j = 2;j<=Math.sqrt(x);j++) {
+                if (x % j == 0) {
+                    check2 = true
+                } else {
+                    check2 = false;
+                    break;
+                }
+
+        }
+            if(check2==true){
+                return check;
+            }
+        }
+
+  }
+
+  tim_so_nguyen_to_lon_nhat([5,4,6,8,7,2,9])
+</script>
+</body>
+</html>

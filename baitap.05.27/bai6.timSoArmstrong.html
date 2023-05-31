@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findArmstrongNumber(start,end) {
+        let total = 0;
+        let subNumber = start;
+        let digits = start.toString().length;
+        while(subNumber>0){
+            let checkNumber = subNumber%10;
+            subNumber = (subNumber-checkNumber)/10;
+            total += checkNumber**digits;
+        }
+        if(total==start)
+            return true;
+
+    for(let i=start;i<end;i++){
+        if(findArmstrongNumber(i)){
+            console.log(i);
+        }
+    }
+    }
+
+    findArmstrongNumber(12,1555)
+</script>
+</body>
+</html>

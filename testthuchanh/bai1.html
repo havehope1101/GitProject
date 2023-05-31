@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check3rd(arr) {
+
+        for (let i = 0; i < arr.length - 1; i++) {
+            let swap = false;
+            for (let j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] < arr[j + 1]) {
+                    let temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    swap = true
+                }
+            }
+            // if (!swap)
+            if(swap==false)
+                break;
+        }
+        document.writeln("Gia tri diem cao thu 3 la :" + arr[2]);
+    }
+
+    // check3rd([1, 3, 6, 8, 5, 9,11,45, 7, 2])
+    check3rd([1, 3, 6])
+
+</script>
+</body>
+</html>

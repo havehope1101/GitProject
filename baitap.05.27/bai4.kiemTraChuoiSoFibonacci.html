@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function kiemTraChuoiFibonacci(arr){
+    let check = false;
+    for(let i=0;i<arr.length-2;i++){
+      if(arr[i+2]==arr[i+1]+arr[i]){
+        check = true;
+      } else {
+        check = false;
+        break;
+      }
+    }
+    console.log(check);
+    return check;
+  }
+
+  kiemTraChuoiFibonacci([2,4,5,9,14,23,37])
+</script>
+</body>
+</html>

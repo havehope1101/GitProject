@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function tinh_tong_chu_so(chuoi) {
+    let sum = 0;
+    let doDaiChuoi = chuoi.split("").length;
+    for (let i=0;i<doDaiChuoi;i++){
+      sum += Number(chuoi[i]);
+    }
+    console.log(sum);
+    return sum;
+  }
+
+  tinh_tong_chu_so("13524623")
+</script>
+</body>
+</html>

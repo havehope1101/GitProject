@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim So Hoan Thien</title>
+</head>
+<body>
+<script>
+    // function tim_so_hoan_thien_tiep_theo(n) {
+    //     let sum = 0;
+    //     for (let i = 1; i < n; i++) {
+    //         if (n % i === 0) {
+    //             sum += i;
+    //         }
+    //     }
+    //     if(sum ===n){
+    //         console.log(sum);
+    //     }
+    //     n++;
+    // }
+    // tim_so_hoan_thien_tiep_theo(496)
+
+    function tim_so_hoan_thien_tiep_theo(n) {
+        let arr = [6,28,496,8128,33550336,8589869056,137438691328]
+
+        for(let i=0;i<arr.length;i++){
+            if(n<arr[i]){
+                n = arr[i];
+                break;
+            }
+        }
+        console.log("so hoan hao can tim la " +n)
+        return n;
+    }
+
+    tim_so_hoan_thien_tiep_theo(34564)
+</script>
+</body>
+</html>

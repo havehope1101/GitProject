@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // function findArmstrongNumber(number) {
+  //   let count = 0;
+  //   let total = 0;
+  //   let subNumber = number;
+  //   let checkNumber = 0;
+  //   while(number>1){
+  //     count++;
+  //     number/=10;
+  //   }
+  //   for(let i=0;i<=count;i++){
+  //      checkNumber = subNumber%10;
+  //      subNumber = (subNumber-checkNumber)/10;
+  //     total += checkNumber**count;
+  //   }
+  //   document.writeln(total);
+  // }
+
+  // findArmstrongNumber(153)
+
+
+  function findArmstrongNumber(number) {
+    let total = 0;
+    let subNumber = number;
+    let digits = number.toString().length;
+    while(subNumber>0){
+      let checkNumber = subNumber%10;
+       subNumber = (subNumber-checkNumber)/10;
+      total += checkNumber**digits;
+    }
+    return total==number;
+  }
+
+  for(let i=0;i<1000;i++){
+      if(findArmstrongNumber(i)){
+          console.log(i);
+      }
+  }
+</script>
+</body>
+</html>

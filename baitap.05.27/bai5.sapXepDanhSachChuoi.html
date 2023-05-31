@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function sap_xep_theo_tu_dien(danhsach){
+    for(let i=0;i<danhsach.length;i++){
+        let check = false;
+        for(let j=0;j<danhsach.length-i-1;j++){
+            if(danhsach[j]>danhsach[j+1]){
+                let temp = danhsach[j+1];
+                danhsach[j+1] = danhsach[j];
+                danhsach[j] = temp;
+                check = true;
+            }
+        }
+        if(!check)
+        break;
+    }
+      console.log(danhsach);
+  }
+
+  sap_xep_theo_tu_dien(["abadh","gjsh","tyihsrh","khrj","cvkdtk"])
+</script>
+</body>
+</html>
