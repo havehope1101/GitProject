@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function insertNumberToArray(arr, x, index) {
+        if (index > arr.length || index < 0) {
+            console.log(arr);
+            return arr;
+        }
+
+        let newArr = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (i === index) {
+                newArr.push(x);
+            }
+            newArr.push(arr[i]);
+        }
+        if (index == arr.length) {
+            newArr.push(x);
+        }
+        console.log(newArr);
+        return newArr;
+    }
+
+    insertNumberToArray([1, 2, 3, 4, 5, 6], 14, 6)
+
+</script>
+</body>
+</html>

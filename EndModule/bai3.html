@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function sumOfListPrime(x) {
+        let sum = 0;
+        for (let j = 0; j <= x; j++) {
+            if (checkPrime(j)) {
+                sum += j;
+            }
+        }
+        console.log(sum)
+        return sum;
+    }
+
+    function checkPrime(number) {
+        let y = number;
+        if (y < 2) {
+            return false;
+        }
+        for (let i = 2; i <= (y - 1); i++) {
+            if (y % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+sumOfListPrime(30)
+</script>
+</body>
+</html>
