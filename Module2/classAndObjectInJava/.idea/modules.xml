@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baiTapVeNha/baiTapVeNha.iml" filepath="$PROJECT_DIR$/baiTapVeNha/baiTapVeNha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/classAndObjectInJava.iml" filepath="$PROJECT_DIR$/.idea/classAndObjectInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lopHinhChuNhat/lopHinhChuNhat.iml" filepath="$PROJECT_DIR$/lopHinhChuNhat/lopHinhChuNhat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xayDungLopFan/xayDungLopFan.iml" filepath="$PROJECT_DIR$/xayDungLopFan/xayDungLopFan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xayDungLopQuadraticEquation/xayDungLopQuadraticEquation.iml" filepath="$PROJECT_DIR$/xayDungLopQuadraticEquation/xayDungLopQuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xayDungLopStopWatch/xayDungLopStopWatch.iml" filepath="$PROJECT_DIR$/xayDungLopStopWatch/xayDungLopStopWatch.iml" />
+    </modules>
+  </component>
+</project>
