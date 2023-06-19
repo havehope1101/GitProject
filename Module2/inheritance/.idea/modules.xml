@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/circle_class_and_cylinder_class/circle_class_and_cylinder_class.iml" filepath="$PROJECT_DIR$/circle_class_and_cylinder_class/circle_class_and_cylinder_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/geometric/geometric.iml" filepath="$PROJECT_DIR$/geometric/geometric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/inheritance.iml" filepath="$PROJECT_DIR$/.idea/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/point2D_class_point3D_class/point2D_class_point3D_class.iml" filepath="$PROJECT_DIR$/point2D_class_point3D_class/point2D_class_point3D_class.iml" />
     </modules>
   </component>
 </project>
