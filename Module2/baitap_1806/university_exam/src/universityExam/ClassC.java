@@ -1,61 +1,41 @@
 package universityExam;
 
-public class ClassC {
-    private int number;
-    private String name;
-    private String address;
-    private int priority;
-    private char subject = 'C';
+import universityEntrance.UniversityEntrance;
 
-    public ClassC() {
+public class ClassC extends ClassStudent implements UniversityEntrance {
+    private char C;
+
+    public ClassC(char c) {
+        C = c;
     }
 
-    public ClassC(int number, String name, String address, int priority, char subject) {
-        this.number = number;
-        this.name = name;
-        this.address = address;
-        this.priority = priority;
-        this.subject = subject;
+    public ClassC(int number, String name, String address, int priority, char c) {
+        super(number, name, address, priority);
+        C = c;
+    }
+
+    @Override
+    public void add(int index, Object o) {
 
     }
 
-    public int getNumber() {
-        return number;
+    @Override
+    public Object get(Object o) {
+        return null;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    @Override
+    public Object search(int number, Object o) {
+        return null;
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public boolean hasNext() {
+        return false;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public int getPriority() {
-        return priority;
-    }
-
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
-
-    public char getSubject() {
-        return subject;
-    }
-
-    public void setSubject(char subject) {
-        this.subject = subject;
+    @Override
+    public Object next() {
+        return null;
     }
 }

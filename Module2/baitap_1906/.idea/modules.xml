@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/baitap_1906.iml" filepath="$PROJECT_DIR$/.idea/baitap_1906.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doc_so_nguyen/doc_so_nguyen.iml" filepath="$PROJECT_DIR$/doc_so_nguyen/doc_so_nguyen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tim_boi_chung_nho_nhat/tim_boi_chung_nho_nhat.iml" filepath="$PROJECT_DIR$/tim_boi_chung_nho_nhat/tim_boi_chung_nho_nhat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tim_uoc_chung_lon_nhat/tim_uoc_chung_lon_nhat.iml" filepath="$PROJECT_DIR$/tim_uoc_chung_lon_nhat/tim_uoc_chung_lon_nhat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinh_tong_day_so/tinh_tong_day_so.iml" filepath="$PROJECT_DIR$/tinh_tong_day_so/tinh_tong_day_so.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tong_binh_phuong/tong_binh_phuong.iml" filepath="$PROJECT_DIR$/tong_binh_phuong/tong_binh_phuong.iml" />
+    </modules>
+  </component>
+</project>

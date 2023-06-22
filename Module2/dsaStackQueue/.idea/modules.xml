@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/decimalToBinary/decimalToBinary.iml" filepath="$PROJECT_DIR$/decimalToBinary/decimalToBinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dsaStackQueue.iml" filepath="$PROJECT_DIR$/.idea/dsaStackQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue_using_array/queue_using_array.iml" filepath="$PROJECT_DIR$/queue_using_array/queue_using_array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack_using_array/stack_using_array.iml" filepath="$PROJECT_DIR$/stack_using_array/stack_using_array.iml" />
+    </modules>
+  </component>
+</project>
