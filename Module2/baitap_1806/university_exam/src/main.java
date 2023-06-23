@@ -12,6 +12,6 @@ public class main {
             System.out.println("0. Thoat khoi chuong trinh");
         } while ( choice != 0 );
 
-        
+
     }
 }
