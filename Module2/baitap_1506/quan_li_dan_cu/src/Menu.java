@@ -37,7 +37,7 @@ public class Menu {
         System.out.println("nhap id: ");
         int id = inputNumber.nextInt();
         Family family = new Family(id);
-//        street.add(family);
+        street.add(family);
     }
 
     public void editFamily() {
