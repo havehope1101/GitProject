@@ -8,16 +8,18 @@ public class Comic {
     private String author;
     private ArrayList<String> genre;
     private boolean availability;
+    private int value;
 
     public Comic() {
     }
 
-    public Comic(int comicId, String title, String author, ArrayList<String> genre, boolean availability) {
+    public Comic(int comicId, String title, String author, ArrayList<String> genre, boolean availability, int value) {
         this.comicId = comicId;
         this.title = title;
         this.author = author;
         this.genre = genre;
         this.availability = availability;
+        this.value = value;
     }
 
     public int getComicId() {
@@ -58,5 +60,29 @@ public class Comic {
 
     public void setAvailability(boolean availability) {
         this.availability = availability;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "Comic{" +
+                "comicId=" + comicId +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", genre=" + genre +
+                ", availability=" + availability +
+                ", value=" + value +
+                '}';
+    }
+
+    public String toStringOnlyTitle() {
+        return  comicId + ". " + title ;
     }
 }
