@@ -1,8 +1,9 @@
 package identity;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Comic {
+public class Comic implements Serializable {
     private int comicId;
     private String title;
     private String author;
@@ -72,14 +73,13 @@ public class Comic {
 
     @Override
     public String toString() {
-        return "Comic{" +
-                "comicId=" + comicId +
-                ", title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", genre=" + genre +
-                ", availability=" + availability +
-                ", value=" + value +
-                '}';
+        return
+                "comicId: " + comicId +
+                ", title: '" + title + '\'' +
+                ", author: '" + author + '\'' +"\n" +
+                ", genre: " + genre +
+                ", availability: " + availability +
+                ", value: " + value;
     }
 
     public String toStringOnlyTitle() {

@@ -1,3 +1,5 @@
+package checkData;
+
 import java.util.Scanner;
 
 public class CheckInput {

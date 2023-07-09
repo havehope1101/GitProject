@@ -1,8 +1,9 @@
 package identity;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class User {
+public class User implements Serializable {
     private int userId;
     private String username;
     private String password;
@@ -13,10 +14,13 @@ public class User {
     public User() {
     }
 
-    public User(int userId, String username, String password) {
-        this.userId = userId;
+//    private int count = 2;
+
+    public User( String username, String password, int money) {
+        this.userId = userId++;
         this.username = username;
         this.password = password;
+        this.money = money;
     }
 
     public User(int userId, String username, String password, ArrayList<String> borrowedComic, int money, String role) {
@@ -74,5 +78,16 @@ public class User {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", borrowedComic=" + borrowedComic +
+                ", money=" + money +
+                ", role='" + role + '\'' +
+                '}';
     }
 }

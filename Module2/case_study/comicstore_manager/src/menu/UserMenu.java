@@ -1,36 +1,21 @@
+package menu;
+
+import checkData.CheckInput;
 import identity.Comic;
 import identity.Genres;
 import manage.ComicLibrary;
+import manage.UserManagement;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
-public class Menu {
+public class UserMenu {
     ComicLibrary comicLibrary = new ComicLibrary();
+    UserManagement userManagement = new UserManagement();
 
-    
-//    public Scanner inputNumber = new Scanner(System.in);
-//    public Scanner inputString = new Scanner(System.in);
-//
-//    public int checkInput() {
-//        int input;
-//        while (true) {
-//            try {
-//                input = Integer.parseInt(inputString.nextLine());
-//                break;
-//            } catch (NumberFormatException e) {
-//                System.out.println("pls input number format, my fen");
-//            }
-//        }
-//        return input;
-//    }
-    
-
-    public void showMainMenu() {
+    public void showUserMenu() {
         int choice = -1;
         do {
-            String mainMenu = "Main \n" +
+            String mainMenu =
                     "1. Show all comic\n" +
                     "2. Search comic by title\n" +
                     "3. Search comic by author\n" +
@@ -38,13 +23,11 @@ public class Menu {
                     "5. Show available comic\n" +
                     "6. Borrow comic\n" +
                     "7. Return comic\n" +
-                    "8. Add comic (Only with admin permission)\n" +
-                    "9. Remove comic (Only with admin permission)\n" +
                     "0. Exit";
 
             System.out.println(mainMenu);
 
-            CheckInput.checkInput();
+            choice = CheckInput.checkInput();
 
             switch (choice) {
                 case 1:
@@ -60,30 +43,13 @@ public class Menu {
                     searchByGenre();
                     break;
                 case 5:
-                    comicLibrary.getAvailableComic();
+//                    comicLibrary.getAvailableComic();
                     break;
                 case 6:
                     break;
                 case 7:
                     break;
                 case 8:
-//                    System.out.println("input id");
-//                    int comicId = inputNumber.nextInt();
-//                    System.out.println("input title");
-//                    String inputtitle = CheckInput.getInputString();
-//                    System.out.println("input author");
-//                    String inputauthor = CheckInput.getInputString();
-//                    comicLibrary.displayByGenre();
-//                    System.out.println("choose genre from above list");
-//                    int addgenre = inputNumber.nextInt();
-//                    comicLibrary.addGenre(addgenre);
-//
-//
-//
-//                    Comic comic = new Comic(comicId, inputtitle, inputauthor, , true);
-
-
-
                     break;
                 case 9:
                     break;
@@ -97,10 +63,12 @@ public class Menu {
 
     public void showAllComics() {
         System.out.println("List comic: ");
-        List<Comic> list = comicLibrary.getAll();
+        List<Comic> list = userManagement.getAll();
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i).toStringOnlyTitle());
+            System.out.println(list.get(i).toString());
+            System.out.println("\n");
         }
+        System.out.println("\n");
     }
 
     public void searchByTitle() {
@@ -111,13 +79,13 @@ public class Menu {
     }
 
     public void searchByAuthor() {
-        System.out.println("please input title, my fen");
+        System.out.println("Please input author, my fen");
         String author = CheckInput.getInputString();
         comicLibrary.searchByAuthor(author);
     }
 
     public void searchByGenre() {
-        System.out.println("here is the list of genre:\n");
+        System.out.println("Here is the list of genre:\n");
         comicLibrary.displayByGenre();
         try {
             Thread.sleep(2000);

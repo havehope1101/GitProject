@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComicLibrary implements Management<Comic> {
-    List<Comic> comics = new ArrayList<>();
+   List<Comic> comics = new ArrayList<>();
+
     List<Genres> genre = new ArrayList<Genres>();
 
 
@@ -54,7 +55,7 @@ public class ComicLibrary implements Management<Comic> {
     public void searchByTitle(String title) {
         boolean check = true;
         for (Comic comic:comics) {
-            if(comic.getTitle().contains(title)) {
+            if(comic.getTitle().toLowerCase().contains(title)) {
                 System.out.println(comic);
                 check = false;
             }
@@ -67,7 +68,7 @@ public class ComicLibrary implements Management<Comic> {
     public void searchByAuthor(String author) {
         boolean check = true;
         for (Comic comic:comics) {
-            if(comic.getAuthor().contains(author)) {
+            if(comic.getAuthor().toLowerCase().contains(author)) {
                 System.out.println(comic);
                 check = false;
             }
@@ -78,7 +79,6 @@ public class ComicLibrary implements Management<Comic> {
     }
 
     public void displayByGenre() {
-//        return (Genres.values()[number]);
         for (int i = 1; i <= Genres.values().length; i++) {
             System.out.print(i + "." + " " + Genres.values()[i-1] + "      ");
         }
@@ -106,6 +106,7 @@ public class ComicLibrary implements Management<Comic> {
     }
 
     public void getAvailableComic() {
+        System.out.println("Here is the list of comic you can hire: ");
         for (Comic comic:comics) {
             if(comic.isAvailability()) {
                 System.out.println(comic.getComicId() + ". " + comic.getTitle());
@@ -122,7 +123,7 @@ public class ComicLibrary implements Management<Comic> {
             }
         }
         if(check) {
-            System.out.println("this genre doesn't have any comic");
+            System.out.println("This genre doesn't have any comic");
         }
     }
 
