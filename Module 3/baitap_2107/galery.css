@@ -1,0 +1,40 @@
+.text {
+    position: relative;
+}
+
+.all-image {
+    height: auto;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.picture {
+    width: 25%;
+    height: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .all-image {
+        flex-wrap: wrap;
+    }
+
+    .picture {
+        width: 48%;
+        margin: 6px 6px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .picture {
+        width: 100%;
+    }
+}

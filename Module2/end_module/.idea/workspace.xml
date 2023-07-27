@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="432668a9-c6f6-4cfb-b010-c26e94f5322a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/fileIO/ReadDataComic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/fileIO/ReadDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/fileIO/ReadDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/fileIO/WriteDataComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/fileIO/WriteDataComic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/Comic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/identity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/manage/ComicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/manage/ComicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/manage/UserManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/manage/UserManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/AdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/comicstore_manager/src/menu/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/fileIO/WriteDataComic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/fileIO/WriteDataComic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/identity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/identity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/manage/ComicLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/manage/ComicLibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/manage/UserManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/manage/UserManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/AdminMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/AdminMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/UserMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/out/production/comicstore_manager/menu/UserMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case_study/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/user.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2SNxgGSEOyP0hojoPG7SfU8ZNQ8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="432668a9-c6f6-4cfb-b010-c26e94f5322a" name="Default Changelist" comment="" />
+      <created>1689000949641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689000949641</updated>
+      <workItem from="1689000951510" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

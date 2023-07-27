@@ -6,8 +6,6 @@ import identity.User;
 import manage.ComicLibrary;
 import manage.UserManagement;
 
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class AdminMenu {
@@ -22,7 +20,9 @@ public class AdminMenu {
                     "3. Display all user\n" +
                     "4. Show all comic\n" +
                     "5. Add comic\n" +
-                    "0. Log out";
+                    "0. Log out\n" +
+                    "-----------------------------\n" +
+                    "input your choice: ";
 
             System.out.println(adminMenu);
 
@@ -42,7 +42,7 @@ public class AdminMenu {
                     userMenu.showAllComics();
                     break;
                 case 5:
-                    userManagement.addComic();
+                    userMenu.addComic();
                     break;
                 case 0:
                     break;
@@ -57,14 +57,13 @@ public class AdminMenu {
         System.out.println("input id of user you want to remove:");
         int id = CheckInput.checkInput();
         int index = findIndexById(id);
-        if(index != -1) {
+        if (index != -1) {
             userManagement.getAllUser().remove(index);
             System.out.println("remove success");
-        }
-        else {
+        } else {
             System.out.println("cannot find id " + id + ". Please check again");
         }
-        }
+    }
 
     private void displayAllUser() {
         List<User> users = userManagement.getAllUser();
@@ -80,8 +79,6 @@ public class AdminMenu {
         }
         return -1;
     }
-
-
 
 
 }

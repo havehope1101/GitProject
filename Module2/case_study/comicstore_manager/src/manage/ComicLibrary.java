@@ -8,12 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComicLibrary implements Management<Comic> {
-   List<Comic> comics = new ArrayList<>();
+    List<Comic> comics = new ArrayList<>();
 
     List<Genres> genre = new ArrayList<Genres>();
 
 
-//    ----------------------THIS IS TEST CODE---------------------------------------------
+    //    ----------------------THIS IS TEST CODE---------------------------------------------
     public ComicLibrary() {
         int comicId1 = 1;
         String title1 = "My Comic";
@@ -54,33 +54,33 @@ public class ComicLibrary implements Management<Comic> {
 
     public void searchByTitle(String title) {
         boolean check = true;
-        for (Comic comic:comics) {
-            if(comic.getTitle().toLowerCase().contains(title)) {
+        for (Comic comic : comics) {
+            if (comic.getTitle().toLowerCase().contains(title)) {
                 System.out.println(comic);
                 check = false;
             }
         }
-        if(check) {
+        if (check) {
             System.out.println("not found");
         }
     }
 
     public void searchByAuthor(String author) {
         boolean check = true;
-        for (Comic comic:comics) {
-            if(comic.getAuthor().toLowerCase().contains(author)) {
+        for (Comic comic : comics) {
+            if (comic.getAuthor().toLowerCase().contains(author)) {
                 System.out.println(comic);
                 check = false;
             }
         }
-        if(check) {
+        if (check) {
             System.out.println("not found");
         }
     }
 
     public void displayByGenre() {
         for (int i = 1; i <= Genres.values().length; i++) {
-            System.out.print(i + "." + " " + Genres.values()[i-1] + "      ");
+            System.out.print(i + "." + " " + Genres.values()[i - 1] + "      ");
         }
         System.out.println("\n");
     }
@@ -94,35 +94,36 @@ public class ComicLibrary implements Management<Comic> {
     @Override
     public int findIndexById(int id) {
         for (int i = 0; i < this.comics.size(); i++) {
-            if(this.comics.get(i).getComicId() == id)
+            if (this.comics.get(i).getComicId() == id)
                 return i;
         }
-            return -1;
+        return -1;
     }
 
     @Override
     public List<Comic> getAll() {
-        return this.comics;
+        return comics;
     }
 
     public void getAvailableComic() {
-        System.out.println("Here is the list of comic you can hire: ");
-        for (Comic comic:comics) {
-            if(comic.isAvailability()) {
+        System.out.println("Here is the list of comic you can buy: ");
+        for (Comic comic : comics) {
+            if (comic.isAvailability()) {
                 System.out.println(comic.getComicId() + ". " + comic.getTitle());
             }
         }
+        System.out.println("\n");
     }
 
     public void checkGenre(String nameOfGenre) {
         boolean check = true;
-        for (Comic comic:comics) {
-            if(comic.getGenre().contains(nameOfGenre)){
+        for (Comic comic : comics) {
+            if (comic.getGenre().contains(nameOfGenre)) {
                 System.out.println(comic);
                 check = false;
             }
         }
-        if(check) {
+        if (check) {
             System.out.println("This genre doesn't have any comic");
         }
     }
@@ -134,7 +135,7 @@ public class ComicLibrary implements Management<Comic> {
 
 
 //    public void borrowComic(int number,int money) {
-//        String borrowedComic = ListGenre.Genres.
+//        String buyComic = ListGenre.Genres.
 //        for (Comic comic:comics) {
 //        }
 //    }

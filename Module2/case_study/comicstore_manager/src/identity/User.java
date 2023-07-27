@@ -7,7 +7,7 @@ public class User implements Serializable {
     private int userId;
     private String username;
     private String password;
-    private ArrayList<String> borrowedComic;
+    private ArrayList<String> buyComic;
     private int money;
     private String role = "normalUser";
 
@@ -16,18 +16,18 @@ public class User implements Serializable {
 
 //    private int count = 2;
 
-    public User( String username, String password, int money) {
+    public User(String username, String password, int money) {
         this.userId = userId++;
         this.username = username;
         this.password = password;
         this.money = money;
     }
 
-    public User(int userId, String username, String password, ArrayList<String> borrowedComic, int money, String role) {
+    public User(int userId, String username, String password, ArrayList<String> buyComic, int money, String role) {
         this.userId = userId;
         this.username = username;
         this.password = password;
-        this.borrowedComic = borrowedComic;
+        this.buyComic = buyComic;
         this.money = money;
         this.role = role;
     }
@@ -64,12 +64,12 @@ public class User implements Serializable {
         this.money = money;
     }
 
-    public ArrayList<String> getBorrowedComic() {
-        return borrowedComic;
+    public ArrayList<String> getbuyComic() {
+        return buyComic;
     }
 
-    public void setBorrowedComic(ArrayList<String> borrowedComic) {
-        this.borrowedComic = borrowedComic;
+    public void setbuyComic(ArrayList<String> buyComic) {
+        this.buyComic = buyComic;
     }
 
     public String getRole() {
@@ -85,7 +85,7 @@ public class User implements Serializable {
         return "User{" +
                 "username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", borrowedComic=" + borrowedComic +
+                ", buyComic=" + buyComic +
                 ", money=" + money +
                 ", role='" + role + '\'' +
                 '}';

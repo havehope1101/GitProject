@@ -8,80 +8,81 @@ import checkData.CheckInput;
 import menu.UserMenu;
 
 public class Login {
-//    List<User> users = new ArrayList<>();
+    //    List<User> users = new ArrayList<>();
     UserManagement userManagement = new UserManagement();
 
-        public void showloginMenu() {
-            System.out.println("==== Welcome to the Funny store ====");
+    public void showloginMenu() {
+        System.out.println("==== Welcome to the Funny store ====");
 
-            int choice = -1;
-            do {
-                String loginMenu = "1. Log in\n" +
-                                   "2. Sign up\n" +
-                                   "3. Exit\n" ;
+        int choice = -1;
+        do {
+            String loginMenu = "1. Log in\n" +
+                    "2. Sign up\n" +
+                    "3. Exit\n" +
+                    "-----------------------------\n" +
+                    "input your choice: ";
 
-                System.out.println(loginMenu);
+            System.out.println(loginMenu);
 
-                choice = CheckInput.checkInput();
+            choice = CheckInput.checkInput();
 
-                switch (choice) {
-                    case 1:
-                        checkLogin();
-                        break;
-                    case 2:
-                        signup();
-                        break;
-                    case 3:
-                        System.out.println("see you again");
-                        System.exit(-1);
-                        break;
-                    default:
-                        System.out.println("What the hell did you just input ???. Try again.");
-                }
-            } while (choice != 3);
-        }
+            switch (choice) {
+                case 1:
+                    checkLogin();
+                    break;
+                case 2:
+                    signup();
+                    break;
+                case 3:
+                    System.out.println("see you again");
+                    System.exit(-1);
+                    break;
+                default:
+                    System.out.println("What the hell did you just input ???. Try again.");
+            }
+        } while (choice != 3);
+    }
 
 
-        public void checkLogin() {
+    public void checkLogin() {
         System.out.println("username:");
         String username = CheckInput.getInputString();
         System.out.println("password:");
         String password = CheckInput.getInputString();
 
-        if(CheckValidate.validateInput(username, password)) {
-            if(userManagement.authenticate(username, password)) {
+        if (CheckValidate.validateInput(username, password)) {
+            if (userManagement.authenticate(username, password)) {
                 System.out.println("------------Login success------------");
 
-              if(userManagement.checkRole(username)) {
-                  try {
-                      Thread.sleep(300);
-                  } catch (InterruptedException e) {
-                      e.printStackTrace();
-                  }
-                  System.out.println("Redirecting to the Adminpage......................");
-                  try {
-                      Thread.sleep(500);
-                  } catch (InterruptedException e) {
-                      e.printStackTrace();
-                  }
-                  AdminMenu adminMenu = new AdminMenu();
-                  adminMenu.showAdminMenu();
-              }
-              else {
-                  try {
-                      Thread.sleep(300);
-                  } catch (InterruptedException e) {
-                      e.printStackTrace();
-                  }
-                  System.out.println("Redirecting to the homepage.....................");
-                  try {
-                      Thread.sleep(500);
-                  } catch (InterruptedException e) {
-                      e.printStackTrace();
-                  }
-                  UserMenu menu = new UserMenu();
-                  menu.showUserMenu();
-              }
+                if (userManagement.checkRole(username)) {
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("Redirecting to the Adminpage......................");
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    AdminMenu adminMenu = new AdminMenu();
+                    adminMenu.showAdminMenu();
+                } else {
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("Redirecting to the homepage.....................");
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    UserMenu menu = new UserMenu();
+                    menu.showUserMenu();
+                }
             } else {
                 System.out.println("Login failed. wrong username or password ");
             }
@@ -101,8 +102,8 @@ public class Login {
         String rePassword = CheckInput.getInputString();
         int money = 0;
 
-        if(CheckValidate.validateInput(username, password)) {
-            if(password.equals(rePassword)) {
+        if (CheckValidate.validateInput(username, password)) {
+            if (password.equals(rePassword)) {
                 System.out.println("Sign up success");
 
                 User user = new User(username, password, money);

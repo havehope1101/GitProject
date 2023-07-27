@@ -1,0 +1,159 @@
+.header {
+    width: 100%;
+    height: 110px;
+}
+.header-logo {
+    height: 70px;
+    width: 25%;
+    border: 1px solid ;
+    padding: 50px 50px;
+    margin: 3px;
+    float: left;
+}
+
+.header-banner {
+    width: calc(100% - 25% - 204px - 12px);
+    height: 70px;
+    border: 1px solid black;
+    padding: 50px 50px;
+    margin: 3px;
+    float: left;
+}
+
+.navbar {
+    height: 60px;
+    width: calc(100% - 6px);
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.home1 {
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid black;
+    float: left;
+    margin: 3px;
+    text-align: center;
+    color: blue;
+}
+
+.contactUs1 {
+    height: 50px;
+    width: 100px;
+    border: 1px ;
+    float: left;
+    margin: 3px;
+    text-align: center;
+    color: blue;
+}
+
+.search {
+    height: 45px;
+    width: 300px;
+    border: 1px solid black;
+    float: right;
+    margin: 3px;
+    text-align: center;
+    border-radius: 60px;
+}
+
+.main {
+    height: 600px;
+    width: calc(100% - 6px);
+    /*border: 1px solid black;*/
+    float: left;
+    margin: 3px;
+}
+
+.left-title {
+    height: 550px;
+    width: 15%;
+    /*border: 1px solid black;*/
+    float: left;
+    margin: 3px;
+}
+
+.left-title-up {
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.left-title-down {
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.title {
+    height: 600px;
+    width: 68%;
+    /*border: 1px solid black;*/
+    float: left;
+    margin: 3px;
+}
+
+.title1 {
+    height: 220px;
+    width: 48%;
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.title2 {
+    height: 180px;
+    width: 32%;
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.right-title {
+    height: 600px;
+    width: calc(100% - 15% - 68% - 20px);
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.footer {
+    height: 60px;
+    width: calc(100% - 10px) ;
+    border: 1px solid black;
+    float: left;
+    margin: 3px;
+}
+
+.home2 {
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid black;
+    float: right;
+    margin: 3px;
+    text-align: center;
+    color: blue;
+}
+
+.name {
+    height: 45px;
+    width: 300px;
+    float: left;
+    margin: 3px;
+    text-align: center;
+}
+
+.contactUs2 {
+    height: 50px;
+    width: 100px;
+    border: 1px ;
+    float: right;
+    margin: 3px;
+    text-align: center;
+    color: blue;
+}

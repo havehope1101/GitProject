@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df2e3e61-e13a-4ae2-bb7a-7dada38cb310" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../baitap_2007/newWeb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap_2007/newWeb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap_2107/facebook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap_2107/facebook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap_2107/galery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baitap_2107/galery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/fileIO/ReadDataComic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/checkInput/CheckInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/data/Products.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/fileIO/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/management/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/management/ProductManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/menu/ProductMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/endModule/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2/testThucHanh/Products/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03143748-12-hinh-anh-dep.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/.idea/EndModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EndModule/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/fileIO/ReadDataUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/fileIO/ReadDataUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/fileIO/WriteDataComic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/fileIO/WriteDataComic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/Comic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/Comic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/identity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/manage/ComicLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/manage/ComicLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/manage/UserManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/manage/UserManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/AdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/UserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/comicstore_manager/src/menu/UserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/fileIO/WriteDataComic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/fileIO/WriteDataComic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/identity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/identity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/manage/ComicLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/manage/ComicLibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/manage/UserManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/manage/UserManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/AdminMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/AdminMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/UserMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/out/production/comicstore_manager/menu/UserMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module2/case_study/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module2/case_study/user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anh-dep-thien-nhien-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/.idea/baitap.05-15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/bai1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-15/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/.idea/baitap.05-21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/arrayAndString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/hoten.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-21/myArr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/.idea/baitap.05-23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/baitap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/baitap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05-23/baitap3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/.idea/baitap.05.27.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai1.timSoHoanThien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai2.timSoChinhPhuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai3.timSoNguyenToLonNhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai4.kiemTraChuoiSoFibonacci.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai5.sapXepDanhSachChuoi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai6.timSoArmstrong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai7.tinhTongChuSo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.05.27/bai8.timSoNguyenTo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/.idea/baitap.bancocaro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/bancocaro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bancocaro/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/.idea/baitap.bangcuuchuong.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.bangcuuchuong/BangCuuChuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/.idea/baitap.chuyendoifeetmeter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoifeetmeter/chuyenDoiFeetMeter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/.idea/baitap.chuyendoinhietdo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.chuyendoinhietdo/chuyenDoiNhietDo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/.idea/baitap.douloveme.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.douloveme/doULoveMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/.idea/caseStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.gamelaixe/CaseStudy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/.idea/baitap.giatrinhonhatcuamang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.giatrinhonhatcuamang/giaTriNhoNhatCuaMang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/.idea/baitap.good-fast-cheap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/GoodFastCheap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/goodFastCheap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.good-fast-cheap/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/.idea/baitap.hienthisonguyento.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.hienthisonguyento/hienThiSoNguyenTo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/.idea/baitap.kiemtratudoixung.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.kiemtratudoixung/kiemTraTuDoiXung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/.idea/baitap.luyentapvonglap1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.luyentapvonglap1/timsokhacnhautrongmang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/.idea/baitap.quanlisanphamsudungham.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.quanlisanphamsudungham/quanLiSanPham.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/.idea/baitap.switch-case.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.switch-case/switch-case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/.idea/baitap.taoCV.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/CV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoCV/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/.idea/baitap.taobangcoban.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/TaoBangCoBan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangcoban/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/.idea/baitap.taobangnangcao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/TaoBangNangCao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taobangnangcao/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/.idea/baitap.taodanhsach.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taodanhsach/TaoDanhSach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/.idea/baitap.taoform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoform/taoForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/.idea/baitap.taoformdongian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/FormDangKiHocVien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/FormSoThichCuaBan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformdongian/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/.idea/baitap.taoformsearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsearch/formsearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/.idea/baitap.taoformsurvey.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/Survey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taoformsurvey/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/.idea/baitap.taogiaodienform.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.taogiaodienform/TaoGiaoDien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/.idea/baitap.timgiatritrongmang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.timgiatritrongmang/timGiaTriTrongMang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/.idea/baitap.tinhcannangcothe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/tinhCanNang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.tinhcannangcothe/tinhCanNang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/.idea/baitap.ungdungmaytinh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/ungdungmaytinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/ungdungmaytinh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/ungdungmaytinh2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap.ungdungmaytinh/ungdungmaytinh2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/.idea/casestudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/backup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/game.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudy/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/.idea/thuchanh.xaydunglopdate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh.xaydunglopdate/xaydunglopdate.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2T3NkND3FpjTnVWJJHQaOhVB46y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df2e3e61-e13a-4ae2-bb7a-7dada38cb310" name="Default Changelist" comment="" />
+      <created>1690267947434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690267947434</updated>
+      <workItem from="1690267949125" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

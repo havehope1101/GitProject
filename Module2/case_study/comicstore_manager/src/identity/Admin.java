@@ -2,7 +2,7 @@ package identity;
 
 import java.util.ArrayList;
 
-public class Admin extends User{
+public class Admin extends User {
     private String role = "admin";
 //    private String username;
 //    private String password;
@@ -24,8 +24,8 @@ public class Admin extends User{
 
     @Override
     public String toString() {
-        return "Admin{" +"username='" + super.getUsername() +'\''  +
-                ", password='" + super.getUsername() +'\''  +
+        return "Admin{" + "username='" + super.getUsername() + '\'' +
+                ", password='" + super.getUsername() + '\'' +
                 ", role='" + role + '\'' +
                 '}';
     }

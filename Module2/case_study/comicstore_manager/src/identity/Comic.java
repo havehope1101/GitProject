@@ -75,14 +75,14 @@ public class Comic implements Serializable {
     public String toString() {
         return
                 "comicId: " + comicId +
-                ", title: '" + title + '\'' +
-                ", author: '" + author + '\'' +"\n" +
-                ", genre: " + genre +
-                ", availability: " + availability +
-                ", value: " + value;
+                        ", title: '" + title + '\'' +
+                        ", author: '" + author + '\'' + "\n" +
+                        ", genre: " + genre +
+                        ", availability: " + availability +
+                        ", value: " + value;
     }
 
     public String toStringOnlyTitle() {
-        return  comicId + ". " + title ;
+        return comicId + ". " + title;
     }
 }

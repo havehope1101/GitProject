@@ -1,29 +1,39 @@
 package menu;
 
 import checkData.CheckInput;
+import fileIO.ReadDataComic;
+import fileIO.WriteDataComic;
 import identity.Comic;
 import identity.Genres;
+import identity.User;
 import manage.ComicLibrary;
 import manage.UserManagement;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import static fileIO.ReadDataComic.readDataComic;
+import static fileIO.ReadDataUser.readDataUser;
 
 public class UserMenu {
     ComicLibrary comicLibrary = new ComicLibrary();
-    UserManagement userManagement = new UserManagement();
+    private UserManagement userManagement = new UserManagement();
+    private WriteDataComic writeDataComic = new WriteDataComic();
+    private ReadDataComic readDataComic = new ReadDataComic();
 
     public void showUserMenu() {
         int choice = -1;
         do {
             String mainMenu =
                     "1. Show all comic\n" +
-                    "2. Search comic by title\n" +
-                    "3. Search comic by author\n" +
-                    "4. Search comic by genre\n" +
-                    "5. Show available comic\n" +
-                    "6. Borrow comic\n" +
-                    "7. Return comic\n" +
-                    "0. Exit";
+                            "2. Search comic by title\n" +
+                            "3. Search comic by author\n" +
+                            "4. Search comic by genre\n" +
+                            "5. Show available comic\n" +
+                            "6. Buy comic\n" +
+                            "0. Exit\n" +
+                            "-----------------------------\n" +
+                            "input your choice: ";
 
             System.out.println(mainMenu);
 
@@ -43,15 +53,10 @@ public class UserMenu {
                     searchByGenre();
                     break;
                 case 5:
-//                    comicLibrary.getAvailableComic();
+                    comicLibrary.getAvailableComic();
                     break;
                 case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                case 9:
+                    buyComic();
                     break;
                 case 0:
                     break;
@@ -63,12 +68,13 @@ public class UserMenu {
 
     public void showAllComics() {
         System.out.println("List comic: ");
-        List<Comic> list = userManagement.getAll();
+        List<Comic> list = readDataComic("comic.txt");
+//        List<Comic> list = getAll();
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i).toString());
             System.out.println("\n");
         }
-        System.out.println("\n");
+        System.out.print("\n");
     }
 
     public void searchByTitle() {
@@ -95,8 +101,69 @@ public class UserMenu {
         }
 
         int choose = CheckInput.checkInput();
-        if(choose<Genres.values().length){
-            comicLibrary.checkGenre(Genres.values()[choose-1].toString());
+        if (choose < Genres.values().length) {
+            comicLibrary.checkGenre(Genres.values()[choose - 1].toString());
         }
     }
+
+    public List<Comic> getAll() {
+        return comicLibrary.getAll();
+    }
+
+    public void addComic() {
+        System.out.println("input id:");
+        int id = CheckInput.checkInput();
+        System.out.println("input title");
+        String title = CheckInput.getInputString();
+        System.out.println("input author: ");
+        String author = CheckInput.getInputString();
+        System.out.println("input genre: ");
+        ArrayList<String> arr = new ArrayList<>();
+        {
+            String genre;
+            do {
+                genre = CheckInput.getInputString();
+                if (!genre.equals("")) {
+                    arr.add(genre.toUpperCase());
+                }
+            } while (!genre.equals(""));
+        }
+        boolean availability = true;
+        System.out.println("input value");
+        int value = CheckInput.checkInput();
+
+        Comic comic = new Comic(id, title, author, arr, availability, value);
+        comicLibrary.add(comic);
+        writeDataComic.writeDataToFile("comic.txt", comicLibrary.getAll());
+
+        System.out.println("add comic success");
+    }
+
+    public void buyComic() {
+        System.out.println("input id of comic you want to buy: ");
+        int id = CheckInput.checkInput();
+        List<Comic> list = readDataComic("comic.txt");
+        boolean check = true;
+        for (int i = 0; i <list.size() ; i++) {
+            if(id==list.get(i).getComicId()) {
+                System.out.println("buy success");
+                check = true;
+                break;
+            }
+            else {check = false;}
+            }
+        if(check == false) {
+            System.out.println("wrong id. Try again");
+        }
+
+
+//        arr2.add("Storm");
+    }
+    int a = 5;
+    int b = 5;
+    int c = ++b;
+    int d = c--;
 }
+
+
+
