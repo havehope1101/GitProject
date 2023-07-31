@@ -32,9 +32,9 @@
     <c:forEach items="${students}" var="student">
         <tr>
             <td>${student.id}</td>
-            <td>${student.age}</td>
             <td>${student.name}</td>
-            <td><img src="${student.image}" alt=""></td>
+            <td>${student.age}</td>
+            <td><img src="${student.img}" alt=""></td>
             <td>Sửa</td>
             <td><a href="http://localhost:8080/students?action=delete&id=${student.id}">Xóa</a></td>
         </tr>

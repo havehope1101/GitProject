@@ -48,12 +48,12 @@ public class StudentController extends HttpServlet {
     public void showAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Student> students = studentService.findAll();
         request.setAttribute("students", students);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("model/home.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("student/home.jsp");
         dispatcher.forward(request, response);
     }
 
     public void showFormAdd(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("model/create.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("student/create.jsp");
         dispatcher.forward(request, response);
     }
 
