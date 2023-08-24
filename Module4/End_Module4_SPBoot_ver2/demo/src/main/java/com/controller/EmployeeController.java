@@ -26,37 +26,24 @@ public class EmployeeController {
         model.addAttribute("employees", employees);
         return "home.html";
     }
-//    @GetMapping("/")
-//    public ModelAndView listEmployee() {
-//        ModelAndView modelAndView = new ModelAndView("home");
-//        modelAndView.addObject("employees", employeeService.getAll());
-//        return modelAndView;
-//    }
-
-//    @GetMapping("/new")
-//    public String newEmployee(Model model) {
-//        model.addAttribute("employee", new Employee());
-//        model.addAttribute("branch", new Branch());
-//        return "new";
-//    }
 
     @GetMapping("/new")
     public String newEmployee(Model model) {
         model.addAttribute("employee", new Employee());
         model.addAttribute("branch", new Branch().getId());
-        return "new.html";
+        return "home.html";
     }
 
     @GetMapping("/delete/{id}")
     public String deleteEmployee(@PathVariable int id) {
         employeeService.delete(id);
-        return "redirect:/";
+        return "redirect";
     }
 
-    @GetMapping("edit/{id}")
+    @GetMapping("/edit/{id}")
     public String editEmployee(@PathVariable int id, Model model) {
         Employee employee = employeeService.findById(id);
         model.addAttribute("employee", employee);
-        return "edit";
+        return "home.html";
     }
 }
