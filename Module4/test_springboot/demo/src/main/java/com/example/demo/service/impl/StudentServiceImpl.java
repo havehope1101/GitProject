@@ -35,9 +35,9 @@ public class StudentServiceImpl implements IStudentService {
     }
 
     public void save(Student student, int idClassroom) {
-        Classroom classroom = classroomRepository.findById(idClassroom).get();
-        student.setClassroom(classroom);
-        studentRepository.save(student);
+//        Classroom classroom = classroomRepository.findById(idClassroom).get();
+//        student.setClassroom(classroom);
+//        studentRepository.save(student);
     }
 
 //    @Override

@@ -22,6 +22,10 @@ $(document).ready(function(){
 	});
 });
 
+let checkid;
+let getId=function (id) {
+	checkid=id;
+}
 
 function getAll() {
 	// Tạo ra 1 request.
@@ -57,19 +61,20 @@ function show(arr) {
 			  <td>${a.classroom.name}</td>
 <!--              <td><button type="button" class="btn btn-warning" onclick="" data-toggle="modal" data-target="#modalEdit" >Edit</button></td>-->
 			  <td><a href="#editStudentModal" class="btn btn-warning" data-toggle="modal" onclick="showEdit(${a.id})"><span >Edit</span></a></td>
-              <td><a href="#deleteStudentModal" class="btn btn-danger" data-toggle="modal" ><span >Delete</span></a></td>
+              <td><a href="#deleteStudentModal" class="btn btn-danger" data-toggle="modal" onclick="getId(${a.id});"><span >Delete</span></a></td>
              </tr>`
 
 	}
 	document.getElementById("show").innerHTML = str;
 }
 
-function deleteA(idA){
+function deleteA(idD){
 	$.ajax({
 		type: "GET",
-		url: "http://localhost:8080/delete/"+idA,
+		url: "http://localhost:8080/delete/"+idD,
 		success: function (data) {
 			getAll();
+			checkid = -1;
 		},
 		error: function (err) {
 			console.log(err)
