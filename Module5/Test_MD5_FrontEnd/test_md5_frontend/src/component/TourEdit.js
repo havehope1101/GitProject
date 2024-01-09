@@ -1,22 +1,37 @@
 import React, {useEffect, useState} from 'react';
 import {Link, useNavigate, useParams} from "react-router-dom";
+import axios from 'axios';
 
 const TourEdit = () => {
     const { tourid } = useParams();
 
     //const [empdata, empdatachange] = useState({});
 
+    // useEffect(() => {
+    //     fetch("http://localhost:8080/tuors/" + tourid).then((res) => {
+    //         return res.json();
+    //     }).then((resp) => {
+    //         idchange(resp.id);
+    //         titlechange(resp.title);
+    //         pricechange(resp.price);
+    //         descripchange(resp.description);
+    //     }).catch((err) => {
+    //         console.log(err.message);
+    //     })
+    // }, []);
+
     useEffect(() => {
-        fetch("http://localhost:8080/tuors/" + tourid).then((res) => {
-            return res.json();
-        }).then((resp) => {
-            idchange(resp.id);
-            titlechange(resp.title);
-            pricechange(resp.price);
-            descripchange(resp.description);
-        }).catch((err) => {
-            console.log(err.message);
-        })
+        axios.get("http://localhost:8080/tuors/" + tourid)
+            .then((res) => {
+                const resp = res.data;
+                idchange(resp.id);
+                titlechange(resp.title);
+                pricechange(resp.price);
+                descripchange(resp.description);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
     }, []);
 
     const [id, idchange] = useState("");
@@ -27,22 +42,33 @@ const TourEdit = () => {
 
     const navigate = useNavigate();
 
-    const handlesubmit=(e)=>{
+    const handlesubmit=(e)=> {
         e.preventDefault();
-        const tourdata={id,title,price,description};
+        const tourdata = {id, title, price, description};
 
-        fetch("http://localhost:8080/tuors/"+ tourid, {
-            method:"PUT",
-            headers:{"content-type": "application/json"},
-            body:JSON.stringify(tourdata)
-        }).then((res) => {
-            alert('Update Tour Ok')
-            navigate('/');
-        }).catch((err) => {
-            console.log(err.message)
+        //     fetch("http://localhost:8080/tuors/"+ tourid, {
+        //         method:"PUT",
+        //         headers:{"content-type": "application/json"},
+        //         body:JSON.stringify(tourdata)
+        //     }).then((res) => {
+        //         alert('Update Tour Ok')
+        //         navigate('/');
+        //     }).catch((err) => {
+        //         console.log(err.message)
+        //     })
+        // }
+
+        axios.put("http://localhost:8080/tuors/" + tourid, tourdata, {
+            headers: {"Content-Type": "application/json"}
         })
+            .then((res) => {
+                alert('Update Tour Ok');
+                navigate('/');
+            })
+            .catch((err) => {
+                console.log(err.message)
+            })
     }
-
     return (
         <div>
             <div className="row">

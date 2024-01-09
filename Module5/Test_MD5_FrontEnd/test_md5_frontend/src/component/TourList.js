@@ -40,7 +40,6 @@ const TourList = () => {
         <div className="container">
             <div className="card">
                 <div className="card-title">
-                    <h2>Tour Listing</h2>
                 </div>
                 <div className="card-body">
                     <div className="divbtn">
